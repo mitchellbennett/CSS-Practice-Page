@@ -1,0 +1,101 @@
+
+:root{
+    --main-color: rgb(117, 151, 202);
+    --secondary-color: rgb(228, 201, 81);
+    --font-size-large: 18px;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+}
+
+.intro{
+    text-align: center;
+    font-size: var(--font-size-large);
+    padding: 5px;
+    margin-top: 75px;
+    background-color: var(--main-color);
+    color: white;
+}
+
+.flexbox-section{
+    text-align: center;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex-item1{
+    flex: 1;
+    background-color: rgb(216, 121, 43);
+    padding: 5px;
+    margin: 10px;
+}
+
+.flex-item2{
+    flex: 1;
+    background-color: rgb(150, 118, 69);
+    padding: 5px;
+    margin: 10px;
+}
+
+.flex-item3{
+    flex: 1;
+    background-color: rgb(124, 50, 7);
+    padding: 5px;
+    margin:10px;
+}
+
+.grid-section{
+    text-align: center;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+.grid-item1{
+    background-color: aquamarine;
+    padding: 20px;
+    text-align: center;
+}
+
+.grid-item2{
+    background-color: rgb(156, 101, 219);
+    padding: 20px;
+    text-align: center;
+}
+
+.positioning-section{
+    text-align: center;
+}
+.relative-container{
+    position: relative;
+    background-color: var(--main-color);
+    padding: 20px;
+}
+
+.absolute-box{
+    position: absolute;
+    background-color: var(--secondary-color);
+    padding: 5px;
+    top: 10px;
+    left: 20px;
+}
